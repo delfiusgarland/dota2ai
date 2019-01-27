@@ -127,7 +127,7 @@ function UpdatePushLaneDesires()
 	local time = DotaTime()
 	local common =GetCommonPushLaneDesires()
 
-	if(time<=6*60) then
+	if(time<=15*60) then
 		return {0,0,0}
 	end
 
