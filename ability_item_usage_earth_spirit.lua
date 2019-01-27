@@ -25,15 +25,15 @@ local AbilityToLevelUp=
 	Abilities[1],
 	Abilities[6],
 	Abilities[1],
-	Abilities[3],
-	Abilities[3],
+	Abilities[2],
+	Abilities[2],
 	"talent",
-	Abilities[3],
+	Abilities[2],
 	Abilities[6],
-	Abilities[2],
-	Abilities[2],
+	Abilities[3],
+	Abilities[3],
 	"talent",
-	Abilities[2],
+	Abilities[3],
 	"nil",
 	Abilities[6],
 	"nil",
@@ -53,7 +53,7 @@ local TalentTree={
 		return Talents[4]
 	end,
 	function()
-		return Talents[5]
+		return Talents[6]
 	end,
 	function()
 		return Talents[7]
@@ -92,7 +92,7 @@ local remnantCastGap  = 0.1;
 local stoneCast = -100;
 local stoneCastGap = 1.0;
 
-function IsStoneNearby(location, radius)
+local function IsStoneNearby(location, radius)
 	local units = GetUnitList(UNIT_LIST_ALLIED_OTHER);
 	for _,u in pairs(units) do
 		if u ~= nil and u:GetUnitName() == "npc_dota_earth_spirit_stone" and GetUnitToLocationDistance(u, location) < radius then
@@ -102,7 +102,7 @@ function IsStoneNearby(location, radius)
 	return false;
 end 
 
-function IsStoneInPath(location, dist)
+local function IsStoneInPath(location, dist)
 	if npcBot:IsFacingLocation(location, 5) then
 		local units = GetUnitList(UNIT_LIST_ALLIED_OTHER);
 		for _,u in pairs(units) do
@@ -116,7 +116,7 @@ function IsStoneInPath(location, dist)
 	return false;
 end
 
-function CanChainMag(target, radius)
+local function CanChainMag(target, radius)
 	local enemies = target:GetNearbyHeroes(radius, false, BOT_MODE_NONE);
 	for _,enemy in pairs(enemies)
 	do
@@ -127,7 +127,7 @@ function CanChainMag(target, radius)
 	return false;
 end
 
-function GetCorrectLoc(target, delay)
+local function GetCorrectLoc(target, delay)
 	if target:GetMovementDirectionStability() < 0.9 then
 		return target:GetLocation();
 	else

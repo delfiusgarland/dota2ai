@@ -8,7 +8,7 @@
 local utility = require( GetScriptDirectory().."/utility" ) 
 require(GetScriptDirectory() ..  "/ability_item_usage_generic")
 
-local debugmode=utility.debug_mode
+local debugmode=false
 local npcBot = GetBot()
 local Talents ={}
 local Abilities ={}
@@ -19,13 +19,13 @@ ability_item_usage_generic.InitAbility(Abilities,AbilitiesReal,Talents)
 local AbilityToLevelUp=
 {
 	Abilities[2],
-	Abilities[3],
+	Abilities[1],
 	Abilities[1],
 	Abilities[3],
 	Abilities[1],
 	Abilities[4],
 	Abilities[1],
-	Abilities[1],
+	Abilities[3],
 	Abilities[3],
 	"talent",
 	Abilities[3],

@@ -19,22 +19,22 @@ ability_item_usage_generic.InitAbility(Abilities,AbilitiesReal,Talents)
 
 local AbilityToLevelUp=
 {
-	Abilities[1],
+	Abilities[2],
 	Abilities[3],
 	Abilities[2],
-	Abilities[2],
+	Abilities[1],
 	Abilities[2],
 	Abilities[4],
 	Abilities[2],
-	Abilities[1],
-	Abilities[1],
-	"talent",
-	Abilities[1],
-	Abilities[4],
 	Abilities[3],
 	Abilities[3],
 	"talent",
 	Abilities[3],
+	Abilities[4],
+	Abilities[1],
+	Abilities[1],
+	"talent",
+	Abilities[1],
 	"nil",
 	Abilities[4],
 	"nil",
@@ -156,20 +156,20 @@ Consider[1]=function()
 		end
 	end
 	
-	-- If my mana is enough,use it at enemy
-	if ( npcBot:GetActiveMode() == BOT_MODE_LANING ) 
-	then
-		if((ManaPercentage>0.4 or npcBot:GetMana()>ComboMana))
-		then
-			if (WeakestEnemy~=nil)
-			then
-				if ( CanCast[abilityNumber]( WeakestEnemy ) and (role.IsCarry(WeakestEnemy:GetUnitName()) or #enemys==1))
-				then
-					return BOT_ACTION_DESIRE_LOW,WeakestEnemy;
-				end
-			end
-		end
-	end
+	-- -- If my mana is enough,use it at enemy
+	-- if ( npcBot:GetActiveMode() == BOT_MODE_LANING ) 
+	-- then
+	-- 	if((ManaPercentage>0.4 or npcBot:GetMana()>ComboMana))
+	-- 	then
+	-- 		if (WeakestEnemy~=nil)
+	-- 		then
+	-- 			if ( CanCast[abilityNumber]( WeakestEnemy ) and (role.IsCarry(WeakestEnemy:GetUnitName()) or #enemys==1))
+	-- 			then
+	-- 				return BOT_ACTION_DESIRE_LOW,WeakestEnemy;
+	-- 			end
+	-- 		end
+	-- 	end
+	-- end
 
 	-- If we're pushing or defending a lane
 	if ( npcBot:GetActiveMode() == BOT_MODE_PUSH_TOWER_TOP or
