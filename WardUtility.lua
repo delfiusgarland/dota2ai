@@ -178,11 +178,11 @@ end
 
 function X.GetAvailableSpot(bot)
 	local temp = {};
-	for _,s in pairs(X.GetMandatorySpot()) do
-		if not X.CloseToAvailableWard(s) then
-			table.insert(temp, s);
-		end
-	end
+--	for _,s in pairs(X.GetMandatorySpot()) do
+--		if not X.CloseToAvailableWard(s) then
+--			table.insert(temp, s);
+--		end
+--	end
 	for _,s in pairs(X.GetWardSpotWhenTowerFall()) do
 		if not X.CloseToAvailableWard(s) then
 			table.insert(temp, s);
