@@ -437,7 +437,6 @@ hero_pool_position_1 = {
 	"npc_dota_hero_chaos_knight",
 	"npc_dota_hero_skeleton_king",
 	"npc_dota_hero_slark",
-	"npc_dota_hero_clinkz",
 	"npc_dota_hero_drow_ranger",
 	"npc_dota_hero_faceless_void",
 	"npc_dota_hero_life_stealer",
@@ -453,8 +452,10 @@ hero_pool_position_1 = {
 	"npc_dota_hero_terrorblade",
 	"npc_dota_hero_phantom_lancer",
 	"npc_dota_hero_troll_warlord",
+	"npc_dota_hero_riki",
 }
 hero_pool_position_2 = {
+	"npc_dota_hero_clinkz",
 	"npc_dota_hero_leshrac",
 	"npc_dota_hero_dragon_knight",
 	"npc_dota_hero_huskar",
@@ -500,17 +501,16 @@ hero_pool_position_3 = {
 	"npc_dota_hero_weaver",
 	"npc_dota_hero_furion",
 	"npc_dota_hero_shredder",
+	"npc_dota_hero_slardar",	
 }
 hero_pool_position_4 = {
 	"npc_dota_hero_skywrath_mage",
 	"npc_dota_hero_shadow_shaman",
 	"npc_dota_hero_abaddon",
 	"npc_dota_hero_venomancer",
-	"npc_dota_hero_slardar",
 	"npc_dota_hero_undying",
 	"npc_dota_hero_night_stalker",
 	"npc_dota_hero_silencer",
-	"npc_dota_hero_riki",
 	"npc_dota_hero_earthshaker",
 	"npc_dota_hero_omniknight",
 	"npc_dota_hero_bounty_hunter",
@@ -521,22 +521,22 @@ hero_pool_position_4 = {
 	"npc_dota_hero_sand_king",
 	"npc_dota_hero_nyx_assassin",
 	"npc_dota_hero_tusk",
+	"npc_dota_hero_warlock",
 
 	--"npc_dota_hero_elder_titan",
 	--"npc_dota_hero_spirit_breaker",
 }
 hero_pool_position_5 = {
+	"npc_dota_hero_vengefulspirit",
 	"npc_dota_hero_ogre_magi",
 	"npc_dota_hero_crystal_maiden",
 	"npc_dota_hero_lion",
 	"npc_dota_hero_treant",
-	"npc_dota_hero_vengefulspirit",
 	"npc_dota_hero_jakiro",
 	"npc_dota_hero_dazzle",
 	"npc_dota_hero_lich",
 	"npc_dota_hero_oracle",
 	"npc_dota_hero_winter_wyvern",
-	"npc_dota_hero_warlock",
 	"npc_dota_hero_bane",
 	"npc_dota_hero_ancient_apparition",
 	"npc_dota_hero_disruptor",
@@ -552,6 +552,126 @@ hero_pool_position={
     [4] = hero_pool_position_4,
     [5] = hero_pool_position_5
 }
+
+paLineup={
+	[1] = 
+	{
+		"npc_dota_hero_chaos_knight",
+		"npc_dota_hero_sven",
+		"npc_dota_hero_riki",
+		"npc_dota_hero_slark",
+		"npc_dota_hero_life_stealer",
+		"npc_dota_hero_luna",
+		"npc_dota_hero_lycan",
+	},
+	[2] = 
+	{
+		"npc_dota_hero_phantom_assassin",		
+		"npc_dota_hero_clinkz",
+	},
+	[3] =
+	{
+		"npc_dota_hero_tidehunter",
+		"npc_dota_hero_magnataur",	
+		"npc_dota_hero_centaur",
+		"npc_dota_hero_axe",
+		"npc_dota_hero_bristleback",
+	},
+	[4] =
+	{
+		"npc_dota_hero_omniknight",
+		"npc_dota_hero_abaddon",
+	},
+	[5] =
+	{
+		"npc_dota_hero_vengefulspirit",
+		"npc_dota_hero_lion",
+		"npc_dota_hero_bane",
+		"npc_dota_hero_ogre_magi",
+		"npc_dota_hero_treant",
+
+	}	
+}
+
+drowLineup={
+	[1] = 
+	{
+		"npc_dota_hero_drow_ranger",
+		"npc_dota_hero_luna",
+	},
+	[2] = 
+	{
+		"npc_dota_hero_clinkz",		
+		"npc_dota_hero_huskar",
+	},
+	[3] =
+	{
+		"npc_dota_hero_tidehunter",
+		"npc_dota_hero_furion",
+		"npc_dota_hero_magnataur",	
+		"npc_dota_hero_centaur",
+		"npc_dota_hero_axe",
+		"npc_dota_hero_bristleback",
+	},
+	[4] =
+	{
+		"npc_dota_hero_warlock",
+		"npc_dota_hero_skywrath_mage",
+		"npc_dota_hero_abaddon",
+	},
+	[5] =
+	{
+		"npc_dota_hero_bane",
+		"npc_dota_hero_vengefulspirit",
+		"npc_dota_hero_jakiro",
+		"npc_dota_hero_dazzle",
+		"npc_dota_hero_lion",
+		"npc_dota_hero_ogre_magi",
+		"npc_dota_hero_treant",
+	}	
+}
+
+drowLineup2={
+	[1] = 
+	{
+		"npc_dota_hero_drow_ranger",
+		"npc_dota_hero_luna",
+	},
+	[2] = 
+	{
+		"npc_dota_hero_huskar",
+		"npc_dota_hero_clinkz",		
+	},
+	[3] =
+	{
+		"npc_dota_hero_tidehunter",
+		"npc_dota_hero_furion",
+		"npc_dota_hero_magnataur",	
+		"npc_dota_hero_centaur",
+		"npc_dota_hero_axe",
+		"npc_dota_hero_bristleback",
+	},
+	[4] =
+	{
+		"npc_dota_hero_warlock",
+		"npc_dota_hero_skywrath_mage",
+		"npc_dota_hero_abaddon",
+	},
+	[5] =
+	{
+		"npc_dota_hero_vengefulspirit",
+		"npc_dota_hero_bane",
+		"npc_dota_hero_jakiro",
+		"npc_dota_hero_dazzle",
+		"npc_dota_hero_lion",
+		"npc_dota_hero_ogre_magi",
+		"npc_dota_hero_treant",
+	}	
+}
+
+
+lineup = {}
+
 -- This is the pool of other heros in each position, which dont have bots yet. This is so we can tell which positions the players are in.
 hero_pool_position_unimplemented={
     [1] = {"npc_dota_hero_morphling"},
@@ -583,10 +703,14 @@ local pickTime=GameTime();
 local randomTime=0;
 function AllPickLogic()
 	local team = GetTeam();
-	if(GameTime()<45 and AreHumanPlayersReady(team)==false or GameTime()<25)
+	if(GameTime()<60 and AreHumanPlayersReady(TEAM_RADIANT)==false)   -- or GameTime()<25)
 	then
-		return
+		return;
 	end
+	
+	--lineup = paLineup;
+	lineup = drowLineup;  -- clinkz hard carry
+	--lineup = drowLineup2;  -- huskar solo mid variant
 	
     local picks = GetPicks();
     local selectedHeroes = {};
@@ -600,16 +724,16 @@ function AllPickLogic()
 		do
 			if(IsPlayerInHeroSelectionControl(id) and IsPlayerBot(id) and (GetSelectedHeroName(id)=="" or GetSelectedHeroName(id)==nil))
 			then
-				if(randomTime==0) then
-					randomTime=RandomInt(10,12);
-				end
-				while (GameTime()-pickTime)<randomTime do
-					return;
-				end
-				pickTime=GameTime();
-				randomTime=0;
+				--if(randomTime==0) then
+				--	randomTime=RandomInt(10,12);
+				--end
+				--while (GameTime()-pickTime)<randomTime do
+				--	return;
+				--end
+				--pickTime=GameTime();
+				--randomTime=0;
 				
-				local temphero = GetPositionedHero(team, selectedHeroes);
+				local temphero = GetPositionedHero(lineup, team, selectedHeroes);
                 SelectHero(id, temphero);
 			end
 		end
@@ -653,7 +777,7 @@ function GetHeroPostion( heroName )
 end
 
 -- Returns a Hero that fills a position that current team does not have filled.
-function GetPositionedHero(team, selectedHeroes)
+function GetPositionedHero(lineup, team, selectedHeroes)
 	--Fill positions in random order
     local positionCounts = GetPositionCounts( team );
 	local postion
@@ -661,7 +785,8 @@ function GetPositionedHero(team, selectedHeroes)
 		position=RandomInt(1,5);
 	until(positionCounts[position] == 0)
 
-	return GetRandomHero( hero_pool_position[position], selectedHeroes );
+	--return GetRandomHero( lineup[position], selectedHeroes );
+	return GetNextHero( lineup[position], selectedHeroes );
 
 	-- The object is to fill positions in this order: 3, 4, 2, 5, 1
 	-- local order = {3, 4, 2, 5, 1};
@@ -724,6 +849,18 @@ function GetRandomHero(heroPool, selectedHeroes)
     return hero;
 end
 
+-- Returns a random hero from the supplied heroPool that is not in the selectedHeroes list.
+-- Note: this function will enter an infinite loop if all heros in the pool have been selected.
+function GetNextHero(heroPool, selectedHeroes)
+	local hero;
+	local i = 1;
+	repeat
+		hero = heroPool[i];
+		i = i + 1;
+	until( selectedHeroes[hero] ~= true )
+    return hero;
+end
+
 -- Returns true if, for the specified team, all the Human players have picked a hero.
 function AreHumanPlayersReady(team)
 	local number,playernumber=0,0
@@ -772,7 +909,7 @@ function GetLanesTable()
 	local safeLane=GetSafeLane();
 	local offLane=GetOffLane();
 
-	local laneTable ={
+	local twoOneTwo ={
 		[1] = safeLane,
 		[2] = LANE_MID,
 		[3] = offLane,
@@ -780,7 +917,21 @@ function GetLanesTable()
 		[5] = safeLane
 	};
 
-	return laneTable;
+	local sacOfflane ={
+		[1] = safeLane,
+		[2] = LANE_MID,
+		[3] = offLane,
+		[4] = safeLane,
+		[5] = LANE_MID
+	};
+	
+	if (lineup == drowLineup) then
+		return sacOfflane;
+	else
+		return twoOneTwo;
+	end
+
+--	return laneTable;
 end
 --index:id,value:lane Get normal lane assaignment.
 function GetAssaignedLanes()
@@ -816,14 +967,13 @@ end
 -- BOT EXPERIMENT Author:Arizona Fauzie Link:http://steamcommunity.com/sharedfiles/filedetails/?id=837040016
 ----------------------------------------------------------------------------------------------------
 function UpdateLaneAssignments()
-	if GetGameMode() == GAMEMODE_AP then
+	if GetGameMode() == GAMEMODE_CM then
+		--print("CM Lane Assignment")
+		return CMLaneAssignment()
+	else
 		--print("AP Lane Assignment")
 		return APLaneAssignment()
-	elseif GetGameMode() == GAMEMODE_CM then
-		--print("CM Lane Assignment")
-		return CMLaneAssignment()	
-	end
-   
+	end   
 end
 
 -- function printTable(table)
