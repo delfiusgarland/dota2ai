@@ -155,7 +155,7 @@ Consider[1]=function()	--Target Ability Example
 	-- If my mana is enough,use it at enemy
 	if ( npcBot:GetActiveMode() == BOT_MODE_LANING )
 	then
-		if((ManaPercentage>0.4 or npcBot:GetMana()>ComboMana) and ability:GetLevel()>=2 and CreepHealth>=150)
+		if((ManaPercentage>0.4 or npcBot:GetMana()>ComboMana) and (ability:GetLevel()>=2 or GetGameMode() == GAMEMODE_TURBO) and CreepHealth>=150)
 		then
 			if (WeakestEnemy~=nil)
 			then
