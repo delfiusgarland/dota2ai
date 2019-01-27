@@ -972,8 +972,8 @@ function UnImplementedItemUsage()
 	
 	local glimer=IsItemAvailable("item_glimmer_cape");
 	if glimer~=nil and glimer:IsFullyCastable() then
-		if ( npcBot:GetHealth()/npcBot:GetMaxHealth() < 0.45 and ( tableNearbyEnemyHeroes~=nil and #tableNearbyEnemyHeroes>0) ) or 
-		   ( tableNearbyEnemyHeroes~=nil and #tableNearbyEnemyHeroes >= 3 and npcBot:GetHealth()/npcBot:GetMaxHealth() < 0.65 )  	
+		if ( npcBot:GetHealth()/npcBot:GetMaxHealth() < 0.50 and ( tableNearbyEnemyHeroes~=nil and #tableNearbyEnemyHeroes>0) ) or 
+		   ( tableNearbyEnemyHeroes~=nil and #tableNearbyEnemyHeroes >= 2 and npcBot:GetHealth()/npcBot:GetMaxHealth() < 0.70 )  	
 		then	
 			npcBot:Action_UseAbilityOnEntity(glimer,npcBot);
 			return;
