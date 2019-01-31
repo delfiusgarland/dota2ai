@@ -556,8 +556,8 @@ hero_pool_position={
 paLineup={
 	[1] = 
 	{
-		"npc_dota_hero_chaos_knight",
 		"npc_dota_hero_sven",
+		"npc_dota_hero_chaos_knight",
 		"npc_dota_hero_riki",
 		"npc_dota_hero_slark",
 		"npc_dota_hero_life_stealer",
@@ -586,9 +586,9 @@ paLineup={
 	{
 		"npc_dota_hero_vengefulspirit",
 		"npc_dota_hero_lion",
-		"npc_dota_hero_bane",
 		"npc_dota_hero_ogre_magi",
 		"npc_dota_hero_treant",
+		"npc_dota_hero_bane",
 
 	}	
 }
@@ -621,13 +621,13 @@ drowLineup={
 	},
 	[5] =
 	{
-		"npc_dota_hero_bane",
 		"npc_dota_hero_vengefulspirit",
+		"npc_dota_hero_lion",
 		"npc_dota_hero_jakiro",
 		"npc_dota_hero_dazzle",
-		"npc_dota_hero_lion",
 		"npc_dota_hero_ogre_magi",
 		"npc_dota_hero_treant",
+		"npc_dota_hero_bane",
 	}	
 }
 
@@ -660,12 +660,12 @@ drowLineup2={
 	[5] =
 	{
 		"npc_dota_hero_vengefulspirit",
-		"npc_dota_hero_bane",
 		"npc_dota_hero_jakiro",
 		"npc_dota_hero_dazzle",
 		"npc_dota_hero_lion",
 		"npc_dota_hero_ogre_magi",
 		"npc_dota_hero_treant",
+		"npc_dota_hero_bane",
 	}	
 }
 
