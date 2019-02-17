@@ -28,10 +28,15 @@ local ItemsToBuy =
 	
 	"item_recipe_guardian_greaves",	--卫士胫甲
 	
-	"item_point_booster",		
-	"item_staff_of_wizardry",
-	"item_ogre_axe",
-	"item_blade_of_alacrity",		--蓝杖
+	"item_ring_of_regen",
+	"item_recipe_headdress",
+	"item_branches",
+	"item_recipe_pipe" ,			--笛子
+	
+	--"item_point_booster",		
+	--"item_staff_of_wizardry",
+	--"item_ogre_axe",
+	--"item_blade_of_alacrity",		--蓝杖
 	
 	"item_platemail",
 	"item_mystic_staff",

@@ -26,20 +26,27 @@ local ItemsToBuy =
 	"item_boots_of_elves",
 	"item_boots_of_elves", 
 	"item_ogre_axe",				--魔龙枪
-	"item_ring_of_regen",
-	"item_staff_of_wizardry",
-	"item_recipe_force_staff",		--推推7.14
-	"item_crown",					--大推推7.20
-	
-	"item_ring_of_regen",
-	"item_recipe_headdress",
-	"item_branches",
-	"item_recipe_pipe" ,			--笛子
 	
 	"item_point_booster",
 	"item_staff_of_wizardry",
 	"item_ogre_axe",
 	"item_blade_of_alacrity",		--蓝杖
+	
+	"item_point_booster", 
+	"item_vitality_booster", 
+	"item_energy_booster",
+	"item_ring_of_health",
+	"item_void_stone",				--血精石7.07	
+		
+	"item_ring_of_regen",
+	"item_staff_of_wizardry",
+	"item_recipe_force_staff",		--推推7.14
+	"item_crown",					--大推推7.20
+	
+	--"item_ring_of_regen",
+	--"item_recipe_headdress",
+	--"item_branches",
+	--"item_recipe_pipe" ,			--笛子
 
 	"item_mystic_staff",
 	"item_ultimate_orb",

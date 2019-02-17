@@ -25,20 +25,25 @@ local ItemsToBuy =
 	"item_recipe_buckler" ,
 	"item_branches",
     "item_recipe_mekansm",			--梅肯
-	
-	"item_ring_of_regen",
-	"item_staff_of_wizardry",
-	"item_recipe_force_staff",		--推推7.14
-	
+    
+   	"item_ring_of_protection",
+	"item_sobi_mask",
+	"item_lifesteal",
+	"item_recipe_vladmir",			--祭品7.21 
+		
 	"item_recipe_guardian_greaves",	--卫士胫甲
 	
 	"item_cloak",
 	"item_shadow_amulet",			--微光
-	
-	"item_point_booster",
+
+	"item_ring_of_regen",
 	"item_staff_of_wizardry",
-	"item_ogre_axe",
-	"item_blade_of_alacrity",		--蓝杖
+	"item_recipe_force_staff",		--推推7.14
+	
+	--"item_point_booster",
+	--"item_staff_of_wizardry",
+	--"item_ogre_axe",
+	--"item_blade_of_alacrity",		--蓝杖
 	
 	"item_ring_of_health",
 	"item_void_stone",				

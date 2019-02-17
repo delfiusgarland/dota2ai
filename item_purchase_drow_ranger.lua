@@ -19,7 +19,8 @@ local ItemsToBuy =
 	"item_belt_of_strength",
 	"item_gloves",			--假腿7.21
 	
-	
+	"item_shadow_amulet",
+	"item_claymore",	
 	
 	"item_boots_of_elves",
 	"item_boots_of_elves", 
@@ -47,9 +48,12 @@ local ItemsToBuy =
 	"item_demon_edge",
 	"item_recipe_greater_crit",		--大炮
 	
-	"item_demon_edge",	
-	"item_quarterstaff",	
-	"item_javelin",					--金箍棒7.14
+	"item_ultimate_orb",
+	"item_recipe_silver_edge",		--大隐刀
+	
+	--"item_demon_edge",	
+	--"item_quarterstaff",	
+	--"item_javelin",					--金箍棒7.14
 }
 
 ItemPurchaseSystem.checkItemBuild(ItemsToBuy)

@@ -450,11 +450,12 @@ hero_pool_position_1 = {
 	"npc_dota_hero_lycan",
 	"npc_dota_hero_monkey_king",
 	"npc_dota_hero_terrorblade",
-	"npc_dota_hero_phantom_lancer",
 	"npc_dota_hero_troll_warlord",
 	"npc_dota_hero_riki",
 }
 hero_pool_position_2 = {
+	"npc_dota_hero_phantom_lancer",
+	"npc_dota_hero_enchantress",
 	"npc_dota_hero_clinkz",
 	"npc_dota_hero_leshrac",
 	"npc_dota_hero_dragon_knight",
@@ -495,7 +496,6 @@ hero_pool_position_3 = {
 	"npc_dota_hero_enigma",
 	"npc_dota_hero_broodmother",
 	"npc_dota_hero_dark_seer",
-	"npc_dota_hero_enchantress",
 	"npc_dota_hero_magnataur",
 	"npc_dota_hero_mirana",
 	"npc_dota_hero_weaver",
@@ -557,8 +557,8 @@ paLineup={
 	[1] = 
 	{
 		"npc_dota_hero_sven",
-		"npc_dota_hero_chaos_knight",
 		"npc_dota_hero_riki",
+		"npc_dota_hero_chaos_knight",
 		"npc_dota_hero_slark",
 		"npc_dota_hero_life_stealer",
 		"npc_dota_hero_luna",
@@ -566,7 +566,8 @@ paLineup={
 	},
 	[2] = 
 	{
-		"npc_dota_hero_phantom_assassin",		
+		"npc_dota_hero_phantom_assassin",
+		"npc_dota_hero_enchantress",		
 		"npc_dota_hero_clinkz",
 	},
 	[3] =
@@ -593,6 +594,49 @@ paLineup={
 	}	
 }
 
+lancerLineup={
+	[1] = 
+	{
+		"npc_dota_hero_sven",
+		"npc_dota_hero_riki",
+		"npc_dota_hero_chaos_knight",
+		"npc_dota_hero_slark",
+		"npc_dota_hero_life_stealer",
+		"npc_dota_hero_luna",
+		"npc_dota_hero_lycan",
+	},
+	[2] = 
+	{
+		"npc_dota_hero_phantom_lancer",			
+		"npc_dota_hero_enchantress",	
+		"npc_dota_hero_phantom_assassin",
+		"npc_dota_hero_clinkz",
+	},
+	[3] =
+	{
+		"npc_dota_hero_tidehunter",
+		"npc_dota_hero_magnataur",	
+		"npc_dota_hero_centaur",
+		"npc_dota_hero_axe",
+		"npc_dota_hero_bristleback",
+	},
+	[4] =
+	{
+		"npc_dota_hero_warlock",	
+		"npc_dota_hero_omniknight",
+		"npc_dota_hero_abaddon",
+	},
+	[5] =
+	{
+		"npc_dota_hero_vengefulspirit",
+		"npc_dota_hero_bane",
+		"npc_dota_hero_lion",
+		"npc_dota_hero_ogre_magi",
+		"npc_dota_hero_treant",
+
+	}	
+}
+
 drowLineup={
 	[1] = 
 	{
@@ -601,33 +645,35 @@ drowLineup={
 	},
 	[2] = 
 	{
-		"npc_dota_hero_clinkz",		
+		"npc_dota_hero_enchantress",	
 		"npc_dota_hero_huskar",
+		"npc_dota_hero_clinkz",		
 	},
 	[3] =
 	{
 		"npc_dota_hero_tidehunter",
-		"npc_dota_hero_furion",
-		"npc_dota_hero_magnataur",	
-		"npc_dota_hero_centaur",
 		"npc_dota_hero_axe",
+		"npc_dota_hero_magnataur",	
+		"npc_dota_hero_furion",
+		"npc_dota_hero_centaur",
 		"npc_dota_hero_bristleback",
 	},
 	[4] =
 	{
+		"npc_dota_hero_omniknight",	
 		"npc_dota_hero_warlock",
 		"npc_dota_hero_skywrath_mage",
 		"npc_dota_hero_abaddon",
 	},
 	[5] =
 	{
+		"npc_dota_hero_bane",
+		"npc_dota_hero_ogre_magi",
 		"npc_dota_hero_vengefulspirit",
 		"npc_dota_hero_lion",
 		"npc_dota_hero_jakiro",
 		"npc_dota_hero_dazzle",
-		"npc_dota_hero_ogre_magi",
 		"npc_dota_hero_treant",
-		"npc_dota_hero_bane",
 	}	
 }
 
@@ -640,32 +686,34 @@ drowLineup2={
 	[2] = 
 	{
 		"npc_dota_hero_huskar",
+		"npc_dota_hero_enchantress",	
 		"npc_dota_hero_clinkz",		
 	},
 	[3] =
 	{
 		"npc_dota_hero_tidehunter",
+		"npc_dota_hero_axe",
 		"npc_dota_hero_furion",
 		"npc_dota_hero_magnataur",	
 		"npc_dota_hero_centaur",
-		"npc_dota_hero_axe",
 		"npc_dota_hero_bristleback",
 	},
 	[4] =
 	{
+		"npc_dota_hero_omniknight",	
 		"npc_dota_hero_warlock",
 		"npc_dota_hero_skywrath_mage",
 		"npc_dota_hero_abaddon",
 	},
 	[5] =
 	{
+		"npc_dota_hero_bane",
 		"npc_dota_hero_vengefulspirit",
 		"npc_dota_hero_jakiro",
 		"npc_dota_hero_dazzle",
 		"npc_dota_hero_lion",
 		"npc_dota_hero_ogre_magi",
 		"npc_dota_hero_treant",
-		"npc_dota_hero_bane",
 	}	
 }
 
@@ -703,13 +751,14 @@ local pickTime=GameTime();
 local randomTime=0;
 function AllPickLogic()
 	local team = GetTeam();
-	if(GameTime()<60 and AreHumanPlayersReady(TEAM_RADIANT)==false)   -- or GameTime()<25)
+	if(GameTime()<75 and AreHumanPlayersReady(TEAM_RADIANT)==false)   -- or GameTime()<25)
 	then
 		return;
 	end
 	
-	--lineup = paLineup;
-	lineup = drowLineup;  -- clinkz hard carry
+	lineup = paLineup;
+	--lineup = lancerLineup;
+	--lineup = drowLineup;  -- clinkz hard carry
 	--lineup = drowLineup2;  -- huskar solo mid variant
 	
     local picks = GetPicks();
@@ -925,8 +974,16 @@ function GetLanesTable()
 		[5] = LANE_MID
 	};
 	
-	if (lineup == drowLineup) then
-		return sacOfflane;
+	local sacSafeLane ={
+		[1] = offLane,
+		[2] = LANE_MID,
+		[3] = safeLane,
+		[4] = LANE_MID,
+		[5] = offLane
+	};	
+	
+	if (lineup == lancerLineup) then
+		return sacSafeLane;		
 	else
 		return twoOneTwo;
 	end
