@@ -18,6 +18,11 @@ local ItemsToBuy =
 	
 	"item_energy_booster",			--秘法鞋
 	
+	"item_wind_lace",
+	"item_crown",
+	"item_sobi_mask",
+	"item_recipe_ancient_janggo",
+	
 	"item_ring_of_regen",
 	"item_recipe_headdress",
 	"item_branches",
@@ -36,9 +41,11 @@ local ItemsToBuy =
 	"item_cloak",
 	"item_shadow_amulet",			--微光
 
-	"item_ring_of_regen",
-	"item_staff_of_wizardry",
-	"item_recipe_force_staff",		--推推7.14
+
+
+	--"item_ring_of_regen",
+	--"item_staff_of_wizardry",
+	--"item_recipe_force_staff",		--推推7.14
 	
 	--"item_point_booster",
 	--"item_staff_of_wizardry",

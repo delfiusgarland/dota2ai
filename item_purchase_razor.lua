@@ -21,8 +21,6 @@ local ItemsToBuy =
 
 	"item_blades_of_attack",
 	"item_chainmail",			--相位7.21
-
-	
 		
 	"item_boots_of_elves",
 	"item_boots_of_elves", 
@@ -40,14 +38,19 @@ local ItemsToBuy =
 	"item_recipe_force_staff",		--推推7.14
 	"item_crown",					--大推推7.20
 	
-	"item_ogre_axe", 
-	"item_mithril_hammer",
-	"item_recipe_black_king_bar",	--bkb
-	
 	"item_point_booster",		
 	"item_staff_of_wizardry",
 	"item_ogre_axe",
 	"item_blade_of_alacrity",		--蓝杖
+	"item_recipe_ultimate_scepter_2",	
+	"item_hyperstone",
+	"item_hyperstone",
+	
+	"item_ogre_axe", 
+	"item_mithril_hammer",
+	"item_recipe_black_king_bar",	--bkb
+	
+
 	
 	"item_platemail",
 	"item_mystic_staff",

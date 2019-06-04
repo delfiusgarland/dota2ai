@@ -1568,7 +1568,7 @@ function X.CanBeSupport(hero)
 	or hero == "npc_dota_hero_silencer"
 	or hero == "npc_dota_hero_abaddon"
 	--or hero == "npc_dota_hero_spirit_breaker",
-	or hero == "npc_dota_hero_riki"
+	--or hero == "npc_dota_hero_riki"
 	or hero == "npc_dota_hero_earthshaker"
 	or hero == "npc_dota_hero_omniknight"
 	or hero == "npc_dota_hero_bounty_hunter"

@@ -330,7 +330,7 @@ Consider[3]=function()
 	-- Mode based usage
 	--------------------------------------
 	--protect myself
-	if(npcBot:WasRecentlyDamagedByAnyHero(5) or
+	if((npcBot:WasRecentlyDamagedByAnyHero(5) and npcBot:GetActiveMode() ~= BOT_MODE_LANING) or
 		(npcBot:GetActiveMode() == BOT_MODE_RETREAT and npcBot:GetActiveModeDesire() >= BOT_MODE_DESIRE_MODERATE))
 	then
 		if (#enemys==0)

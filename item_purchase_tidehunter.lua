@@ -16,22 +16,30 @@ local ItemsToBuy =
 	"item_boots",
 	"item_energy_booster",			--秘法
 			
-	"item_ring_of_regen",
-	"item_branches",
-	"item_recipe_headdress",
-	"item_chainmail",
-	"item_branches",
-	"item_recipe_buckler" ,
-    "item_recipe_mekansm",			--梅肯
+	--"item_ring_of_regen",
+	--"item_branches",
+	--"item_recipe_headdress",
+	--"item_chainmail",
+	--"item_branches",
+	--"item_recipe_buckler" ,
+    --"item_recipe_mekansm",			--梅肯
 	
 	"item_blink",					--跳刀
 	
-	"item_recipe_guardian_greaves",	--卫士胫甲
+	--"item_recipe_guardian_greaves",	--卫士胫甲
 	
+	"item_cloak",
+	"item_ring_of_health",
+	"item_ring_of_regen",			--挑战
 	"item_ring_of_regen",
 	"item_recipe_headdress",
 	"item_branches",
 	"item_recipe_pipe" ,			--笛子
+	
+	"item_platemail",
+	"item_hyperstone",
+	"item_chainmail",
+	"item_recipe_assault",			--强袭
 	
 	--"item_point_booster",		
 	--"item_staff_of_wizardry",
@@ -48,10 +56,22 @@ local ItemsToBuy =
 	"item_void_stone",		
 	"item_recipe_refresher", 		--刷新球
 	
-	"item_ring_of_health",
-	"item_void_stone",				
-	"item_platemail",
-	"item_energy_booster",			--清莲宝珠
+	--"item_recipe_travel_boots",
+	
+	"item_ring_of_regen",
+	"item_branches",
+	"item_recipe_headdress",
+	"item_chainmail",
+	"item_branches",
+	"item_recipe_buckler" ,
+    "item_recipe_mekansm",			--梅肯
+		
+	"item_recipe_guardian_greaves",	--卫士胫甲	
+	
+	--"item_ring_of_health",
+	--"item_void_stone",				
+	--"item_platemail",
+	--"item_energy_booster",			--清莲宝珠
 	
 }
 

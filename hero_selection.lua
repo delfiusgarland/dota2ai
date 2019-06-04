@@ -556,8 +556,8 @@ hero_pool_position={
 paLineup={
 	[1] = 
 	{
-		"npc_dota_hero_sven",
 		"npc_dota_hero_riki",
+		"npc_dota_hero_sven",
 		"npc_dota_hero_chaos_knight",
 		"npc_dota_hero_slark",
 		"npc_dota_hero_life_stealer",
@@ -566,13 +566,15 @@ paLineup={
 	},
 	[2] = 
 	{
-		"npc_dota_hero_phantom_assassin",
+		"npc_dota_hero_razor",
 		"npc_dota_hero_enchantress",		
+		"npc_dota_hero_phantom_assassin",
 		"npc_dota_hero_clinkz",
 	},
 	[3] =
 	{
 		"npc_dota_hero_tidehunter",
+		"npc_dota_hero_slardar",	
 		"npc_dota_hero_magnataur",	
 		"npc_dota_hero_centaur",
 		"npc_dota_hero_axe",
@@ -586,6 +588,7 @@ paLineup={
 	[5] =
 	{
 		"npc_dota_hero_vengefulspirit",
+		"npc_dota_hero_crystal_maiden",
 		"npc_dota_hero_lion",
 		"npc_dota_hero_ogre_magi",
 		"npc_dota_hero_treant",
@@ -608,13 +611,14 @@ lancerLineup={
 	[2] = 
 	{
 		"npc_dota_hero_phantom_lancer",			
-		"npc_dota_hero_enchantress",	
 		"npc_dota_hero_phantom_assassin",
+		"npc_dota_hero_enchantress",	
 		"npc_dota_hero_clinkz",
 	},
 	[3] =
 	{
 		"npc_dota_hero_tidehunter",
+		"npc_dota_hero_slardar",	
 		"npc_dota_hero_magnataur",	
 		"npc_dota_hero_centaur",
 		"npc_dota_hero_axe",
@@ -629,6 +633,7 @@ lancerLineup={
 	[5] =
 	{
 		"npc_dota_hero_vengefulspirit",
+		"npc_dota_hero_crystal_maiden",
 		"npc_dota_hero_bane",
 		"npc_dota_hero_lion",
 		"npc_dota_hero_ogre_magi",
@@ -751,7 +756,7 @@ local pickTime=GameTime();
 local randomTime=0;
 function AllPickLogic()
 	local team = GetTeam();
-	if(GameTime()<75 and AreHumanPlayersReady(TEAM_RADIANT)==false)   -- or GameTime()<25)
+	if(GameTime()<75 and AreHumanPlayersReady(TEAM_RADIANT)==false)
 	then
 		return;
 	end

@@ -27,7 +27,7 @@ function GetCommonPushLaneDesires()
 		common = common + 45/time
 	end
 
-	if itemtable["item_drums_of_endurance"]~=nil then
+	if itemtable["item_ancient_janggo"]~=nil then
 		common = common + 60/time
 	end
 
