@@ -71,7 +71,7 @@ local function SendAnnouncement()
 					if(npcBot:GetPlayerID()==id)
 					then
 						npcBot:ActionImmediate_Chat(
-							"Welcome to Ranked Matchmaking AI, the current version is 1.6b, updated on January 31, 2019. If you have any questions or feedback, please leave message on steam workshop https://steamcommunity.com/sharedfiles/filedetails/?id=855965029 or contact adamqqq@163.com",
+							"Welcome to Ranked Matchmaking AI, the current version is 1.6d, updated on April 15, 2019. If you have any questions or feedback, please leave message on steam workshop https://steamcommunity.com/sharedfiles/filedetails/?id=855965029 or contact adamqqq@163.com",
 							true
 						)
 						npcBot:ActionImmediate_Chat(
@@ -145,15 +145,33 @@ local function CanBuybackUpperRespawnTime(respawnTime)
 	return false
 end
 
+function IsMeepoClone()
+	local npcBot = GetBot()
+	if npcBot:GetUnitName() == "npc_dota_hero_meepo" and npcBot:GetLevel() > 1 
+	then
+		for i=0, 5 do
+			local item = npcBot:GetItemInSlot(i);
+			if item ~= nil and not ( string.find(item:GetName(),"boots") or string.find(item:GetName(),"treads") )  
+			then
+				return false;
+			end
+		end
+		return true;
+    end
+	return false;
+end
+
 --GXC BUYBACK LOGIC
 function BuybackUsageThink()
 	local npcBot = GetBot()
-	if
-		npcBot:IsInvulnerable() or not npcBot:IsHero() or not string.find(npcBot:GetUnitName(), "hero") or npcBot:IsIllusion()
-	 then
+	if npcBot:IsInvulnerable() or not npcBot:IsHero() or not string.find(npcBot:GetUnitName(), "hero") or npcBot:IsIllusion() or IsMeepoClone() then
 		return
 	end
 
+	if not npcBot:HasBuyback() then
+		return;
+	end
+	
 	-- no buyback, no need to use GetUnitList() for performance considerations
 	if (not CanBuybackUpperRespawnTime(20)) then
 		return

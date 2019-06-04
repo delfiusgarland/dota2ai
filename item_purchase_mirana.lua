@@ -6,9 +6,15 @@ local ItemPurchaseSystem = dofile(GetScriptDirectory() .. "/util/ItemPurchaseSys
 
 local ItemsToBuy = 
 { 
+	
+	"item_slippers",
+	"item_circlet",
+	"item_slippers",
 	"item_tango",
 	"item_flask",
-	"item_clarity",
+	"item_recipe_wraith_band", --系带
+	"item_circlet",
+	"item_recipe_wraith_band", --系带
 	"item_branches",
 	"item_branches",
 	"item_magic_stick",
@@ -18,16 +24,20 @@ local ItemsToBuy =
 	"item_energy_booster",			--秘法鞋
 	
 	
-	"item_point_booster",
-	"item_staff_of_wizardry",
-	"item_ogre_axe",
-	"item_blade_of_alacrity",		--蓝杖
-
-	"item_blink",		-- 跳刀
+	"item_boots_of_elves",
+	"item_boots_of_elves", 
+	"item_ogre_axe",				--魔龙枪
 	
 	"item_boots_of_elves",
 	"item_blade_of_alacrity",
 	"item_recipe_yasha",			--夜叉
+	
+	
+	"item_ring_of_regen",
+	"item_staff_of_wizardry",
+	"item_recipe_force_staff",		--推推7.14
+	"item_recipe_hurricane_pike",					--大推推7.20
+	
 	"item_ultimate_orb",
 	"item_recipe_manta",			--分身
 	
