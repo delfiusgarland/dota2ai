@@ -19,7 +19,6 @@ function M.SellExtraItem(ItemsToBuy)
 		end
 		if(GameTime()>25*60 or level>=10)
 		then
-			M.SellSpecifiedItem("item_stout_shield")
 			M.SellSpecifiedItem("item_orb_of_venom")
 			M.SellSpecifiedItem("item_enchanted_mango")
 			M.SellSpecifiedItem("item_bracer")
@@ -29,12 +28,12 @@ function M.SellExtraItem(ItemsToBuy)
 		end
 		if(GameTime()>35*60 or level>=15)
 		then
-			M.SellSpecifiedItem("item_branches")
+			--M.SellSpecifiedItem("item_branches")
 			M.SellSpecifiedItem("item_bottle")
 			M.SellSpecifiedItem("item_magic_wand")
 			M.SellSpecifiedItem("item_magic_stick")
-			M.SellSpecifiedItem("item_ancient_janggo")
-			M.SellSpecifiedItem("item_ring_of_basilius")
+			--M.SellSpecifiedItem("item_ancient_janggo")
+			--M.SellSpecifiedItem("item_ring_of_basilius")
 			M.SellSpecifiedItem("item_ring_of_aquila")
 			M.SellSpecifiedItem("item_quelling_blade")
 			M.SellSpecifiedItem("item_soul_ring")
@@ -42,11 +41,12 @@ function M.SellExtraItem(ItemsToBuy)
 		end
 		if(GameTime()>40*60 or level>=20)
 		then
-			M.SellSpecifiedItem("item_vladmir")
+			--M.SellSpecifiedItem("item_stout_shield")
+			--M.SellSpecifiedItem("item_vladmir")
 			M.SellSpecifiedItem("item_urn_of_shadows")
-			M.SellSpecifiedItem("item_drums_of_endurance")
+			--M.SellSpecifiedItem("item_drums_of_endurance")
 			M.SellSpecifiedItem("item_hand_of_midas")
-			M.SellSpecifiedItem("item_dust")
+			--M.SellSpecifiedItem("item_dust")
 		end
 		if(GameTime()>40*60 and npcBot:GetGold()>2200 and (item_travel_boots[1]==nil and item_travel_boots[2]==nil) and npcBot.HaveTravelBoots~=true )
 		then
@@ -64,7 +64,7 @@ function M.SellExtraItem(ItemsToBuy)
 		M.SellSpecifiedItem("item_power_treads_int")
 		M.SellSpecifiedItem("item_power_treads_str")
 		M.SellSpecifiedItem("item_tranquil_boots")
-		M.SellSpecifiedItem("item_tpscroll")
+		--M.SellSpecifiedItem("item_tpscroll")
 	end
 
 end

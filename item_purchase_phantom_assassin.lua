@@ -8,35 +8,46 @@ local ItemsToBuy =
 { 
 	"item_tango",
 	"item_stout_shield",
-	"item_orb_of_venom",
 	"item_tango",		
-	"item_blight_stone",
+	"item_quelling_blade",
+	"item_orb_of_venom",
 	"item_boots",
 	"item_blades_of_attack",
-	"item_chainmail",			--相位7.21
+	"item_chainmail",			-- 1
 	
-	"item_slippers",
-	"item_circlet",
-	"item_recipe_wraith_band",
+	"item_ring_of_health",
+	"item_void_stone",
+	"item_demon_edge",
+	"item_recipe_bfury",			--2
+	
+	--"item_slippers",
+	--"item_circlet",
+	--"item_recipe_wraith_band",
 
 	"item_ring_of_health",
-	"item_vitality_booster",		--先锋
-
-	"item_mithril_hammer",
-	"item_mithril_hammer",			--暗灭
+	"item_vitality_booster",		
 
 	"item_ogre_axe", 
 	"item_mithril_hammer",
-	"item_recipe_black_king_bar",	--bkb
+	"item_recipe_black_king_bar",	-- 3
 
 	"item_mithril_hammer",
 	"item_belt_of_strength",
-	"item_recipe_basher",			--晕锤7.14
-	"item_recipe_abyssal_blade",	--大晕锤
+	"item_recipe_basher",			
+	"item_recipe_abyssal_blade",	-- 4
 	
 	"item_lifesteal",
 	"item_reaver", 
-	"item_claymore",				--撒旦7.07
+	"item_claymore",				-- 5
+	
+	"item_point_booster",		
+	"item_ogre_axe",
+	"item_staff_of_wizardry",
+	"item_blade_of_alacrity",		-- 
+	
+	"item_recipe_ultimate_scepter_2",	
+	"item_hyperstone",
+	"item_hyperstone",
 	
 	"item_demon_edge",	
 	"item_quarterstaff",	

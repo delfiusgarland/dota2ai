@@ -566,13 +566,17 @@ paLineup={
 	},
 	[2] = 
 	{
-		"npc_dota_hero_razor",
-		"npc_dota_hero_enchantress",		
+		"npc_dota_hero_queenofpain",
+		"npc_dota_hero_kunkka",
 		"npc_dota_hero_phantom_assassin",
+		"npc_dota_hero_enchantress",		
+		"npc_dota_hero_razor",
 		"npc_dota_hero_clinkz",
+		"npc_dota_hero_arc_warden",
 	},
 	[3] =
 	{
+		"npc_dota_hero_abyssal_underlord",
 		"npc_dota_hero_tidehunter",
 		"npc_dota_hero_slardar",	
 		"npc_dota_hero_magnataur",	
@@ -584,6 +588,7 @@ paLineup={
 	{
 		"npc_dota_hero_omniknight",
 		"npc_dota_hero_abaddon",
+		"npc_dota_hero_pudge",
 	},
 	[5] =
 	{
@@ -803,7 +808,8 @@ function Think()
 		if GetGameState() == GAME_STATE_HERO_SELECTION then
 			InstallChatCallback(function (attr) SelectHeroChatCallback(attr.player_id, attr.string, attr.team_only); end);
 		end
-		NewTurboModeLogic();
+		AllPickLogic ();
+		--NewTurboModeLogic();
 	else
 		if GetGameState() == GAME_STATE_HERO_SELECTION then
 			InstallChatCallback(function (attr) SelectHeroChatCallback(attr.player_id, attr.string, attr.team_only); end);

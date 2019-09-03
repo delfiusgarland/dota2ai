@@ -17,11 +17,12 @@ local ItemsToBuy =
 
 	"item_boots",	
 	"item_belt_of_strength",
-	"item_gloves",			--假腿7.21
+	"item_gloves",			-- 1
 	
 	"item_chainmail",
 	"item_sobi_mask",
 	"item_blight_stone",			--勋章
+	"item_blight_stone",
 	
 	"item_ring_of_regen",
 	"item_staff_of_wizardry",
@@ -29,28 +30,35 @@ local ItemsToBuy =
 	"item_boots_of_elves",
 	"item_boots_of_elves", 
 	"item_ogre_axe",				--魔龙枪
-	"item_recipe_hurricane_pike",					--大推推7.20
+	"item_recipe_hurricane_pike",					-- 2
 	
 	"item_ultimate_orb",
 	"item_wind_lace",
-	"item_recipe_solar_crest",		--大勋章7.20
+	"item_recipe_solar_crest",		-- 3
+	
+    "item_mithril_hammer",
+    "item_mithril_hammer",			-- 4
 	
 	"item_point_booster",
 	"item_staff_of_wizardry",
 	"item_ogre_axe",
-	"item_blade_of_alacrity",		--蓝杖
+	"item_blade_of_alacrity",		-- 5
 	
 	"item_boots_of_elves",
 	"item_blade_of_alacrity",
 	"item_recipe_yasha",			--夜叉
 	"item_ultimate_orb",
-	"item_recipe_manta",			--分身
+	"item_recipe_manta",			-- 6
+	
+	"item_recipe_ultimate_scepter_2",	
+	"item_hyperstone",
+	"item_hyperstone",	
 	
 	"item_broadsword",
 	"item_blades_of_attack",
 	"item_recipe_lesser_crit" ,
 	"item_demon_edge",
-	"item_recipe_greater_crit",		--大炮
+	"item_recipe_greater_crit",		-- 6
 }
 
 ItemPurchaseSystem.checkItemBuild(ItemsToBuy)

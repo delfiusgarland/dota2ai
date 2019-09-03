@@ -48,6 +48,18 @@ local ItemsToBuy =
 	"item_demon_edge",
 	"item_recipe_greater_crit",		--大炮
 
+	"item_hyperstone",
+	"item_hyperstone",
+	
+	"item_point_booster",
+	"item_ogre_axe",
+	"item_staff_of_wizardry",
+	"item_blade_of_alacrity",		
+	"item_recipe_ultimate_scepter_2",		
+	
+	"item_lifesteal",
+	"item_reaver", 
+	"item_claymore",				--撒旦7.07
 	
 }
 
