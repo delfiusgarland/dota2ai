@@ -50,20 +50,20 @@ local ItemsToBuy =
 	
 	"item_recipe_guardian_greaves",	-- 3
 	
-	"item_ring_of_health",
-	"item_void_stone",				
-	"item_platemail",
-	"item_energy_booster",			-- 4
-	
-	"item_platemail",
-	"item_mystic_staff",
-	"item_recipe_shivas_guard" ,	-- 5
-
 	"item_platemail",
 	"item_hyperstone",
 	"item_chainmail",
-	"item_recipe_assault",			-- 6
+	"item_recipe_assault",			-- 4
 
+	"item_platemail",
+	"item_mystic_staff",
+	"item_recipe_shivas_guard" ,	-- 5
+	
+	"item_ring_of_health",
+	"item_void_stone",				
+	"item_platemail",
+	"item_energy_booster",			-- 6
+	
 	"item_recipe_ultimate_scepter_2",	
 	"item_hyperstone",
 	"item_hyperstone",
