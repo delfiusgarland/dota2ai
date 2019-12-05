@@ -921,7 +921,7 @@ local pickTime=GameTime();
 local randomTime=0;
 function AllPickLogic()
 	local team = GetTeam();
-	if(GameTime()<75 and AreHumanPlayersReady(TEAM_RADIANT)==false)
+	if(GameTime()<80 and AreHumanPlayersReady(TEAM_RADIANT)==false)
 	then
 		return;
 	end
